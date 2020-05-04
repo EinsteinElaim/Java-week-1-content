@@ -14,6 +14,7 @@ public class PingPongTest {
         assertEquals(expectedOutput, testPingPong.runPingPong(1));
     }
 
+    //test working
     @Test
     public void runPingPong_countUpToGivenNumber_ArrayList() {
         PingPong testPingPong = new PingPong();
